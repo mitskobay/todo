@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+
+.center {
+  width: 50%;
+  margin: auto;
+}
+
+#container {
+ width: 500px;
+}
+.line {
+  display: flex;
+  background-color: lightblue;
+  padding: 5px;
+  font-size: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.line > .box, #add {
+  padding-top: 8px;
+}
+
+.line span {
+  font-size: 2rem;
+}
+
+#addLine {
+  padding-right: 8px;
+}
+
+#newText {
+  background-color: rgb(194, 234, 247);
+  flex: 1;
+  border: 0px;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+}
+
+s {
+  text-decoration-thickness: 2px;
+}
